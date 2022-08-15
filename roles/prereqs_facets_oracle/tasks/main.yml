@@ -1,0 +1,4 @@
+---
+- name: install Oracle client prereqs
+  debug: 
+    msg: "Install Oracle client"
