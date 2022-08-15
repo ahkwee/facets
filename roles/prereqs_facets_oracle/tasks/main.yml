@@ -1,4 +1,4 @@
 ---
-- name:  install Oracle client prereqs
+- name:  Tino Suggestion install Oracle client prereqs
   debug: 
-    msg: "Install Oracle client"
+    msg: " Tino Install Oracle client"
