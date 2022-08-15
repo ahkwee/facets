@@ -1,4 +1,4 @@
 ---
-- name: install MQ client prereqs
+- name: MQ Action install MQ client prereqs
   debug: 
-    msg: "Install IBM MQ client"
+    msg: " What: Install IBM MQ client"
