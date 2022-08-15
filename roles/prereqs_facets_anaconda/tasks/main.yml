@@ -1,4 +1,0 @@
----
-- name: install Anaconda prereqs
-  debug: 
-    msg: "Install Anaconda"
