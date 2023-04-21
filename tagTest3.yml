@@ -5,16 +5,24 @@
   vars:
      lastname: "John"
      firstname: "doe"
+     age: 10
 
  
   tasks:
    - name: First execution
      debug:
        msg: "{{ lastname }} }}"
+     tags: [ fam1]
 
-   - name: First execution
+   - name: Second execution
      debug:
        msg: "{{ firstname }}"
+     tags: [ fam1, fam2 ]
+
+   - name: Third exexution
+     debug:
+       msg: " {{ age  }}"
+     tags: [ fam1, fam2, fam3]
    
   
   
