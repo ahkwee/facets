@@ -1,6 +1,6 @@
 ---
 - name: survey test
-  hosts: win
+  hosts: FACN52
   gather_facts: false
   vars:
      lastname: "John"
