@@ -1,0 +1,22 @@
+---
+- name: survey test
+  hosts: win
+  gather_facts: false
+  vars:
+     lastname: "John"
+     firstname: "doe"
+
+ 
+  tasks:
+   - name: First execution
+     debug:
+       msg: "{{ lastname }} }}"
+
+   - name: First execution
+     debug:
+       msg: "{{ firstname }}"
+   
+  
+  
+
+  
